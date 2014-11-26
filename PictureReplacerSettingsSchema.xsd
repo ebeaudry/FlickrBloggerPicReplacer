@@ -1,0 +1,14 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="FlickrBloggerPicReplacer">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="xs:string" name="FlickrUserID"/>
+        <xs:element type="xs:string" name="FlickrAPIKey"/>
+        <xs:element type="xs:string" name="FlickrSecretKey"/>
+        <xs:element type="xs:string" name="ClientID"/>
+        <xs:element type="xs:string" name="ClientSecret"/>
+        <xs:element type="xs:string" name="BlogID"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
